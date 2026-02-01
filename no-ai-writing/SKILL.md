@@ -24,7 +24,7 @@ Avoid falling into rhythmic patterns: not everything needs a tricolon, a partici
 ## Anti-Patterns to Avoid
 
 ### Vocabulary
-Avoid the overused AI vocabulary cluster. These words co-occur in LLM output and are strong tells when multiple appear together. See `references/ai-writing-patterns.md` § Vocabulary for the full watchlist.
+Avoid the overused AI vocabulary cluster. These words co-occur in LLM output and are strong tells when multiple appear together. See the full watchlist at: https://github.com/z3bastian/skills/blob/main/no-ai-writing/references/ai-writing-patterns.md
 
 Key offenders: *delve, tapestry, testament, pivotal, crucial, foster, garner, underscore, highlight, showcase, intricate, enduring, landscape* (abstract), *interplay, indelible, nestled, boasts*.
 
@@ -83,4 +83,4 @@ Before delivering any written content, scan for:
 
 ## Detailed Reference
 
-For the full catalog of patterns with examples, see [references/ai-writing-patterns.md](references/ai-writing-patterns.md).
+For the full catalog of patterns with examples, see: https://github.com/z3bastian/skills/blob/main/no-ai-writing/references/ai-writing-patterns.md

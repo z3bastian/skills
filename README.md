@@ -19,6 +19,8 @@ Makes Claude write like a human, not like an AI. Eliminates the telltale signs o
 
 **Step 3:** Paste it into your Custom Instructions and save
 
+**That's it.** Claude will now automatically follow these writing rules in every conversation. You don't need to mention the skill or remind Claude — it just works.
+
 ---
 
 ### Copy This
@@ -74,11 +76,25 @@ Scan for: AI vocabulary clusters, unsupported significance claims, "-ing" phrase
 
 ---
 
-### Alternative: Load from URL
+### Other AI Tools (ChatGPT, Gemini, etc.)
 
-If you're using Claude in an environment that can fetch URLs (like Claude Code), you can say:
+These instructions work with any AI that has custom instructions or system prompts:
 
-> Load the writing skill from: https://raw.githubusercontent.com/z3bastian/skills/main/no-ai-writing/SKILL.md
+- **ChatGPT**: Settings → Personalization → Custom Instructions
+- **Gemini**: Currently no custom instructions feature
+- **Other tools**: Look for "system prompt", "custom instructions", or "persona" settings
+
+Just copy and paste the same text block above.
+
+---
+
+### Claude Code: Load from URL
+
+If you're using Claude Code (the terminal version), you can tell Claude to fetch the skill directly:
+
+> Fetch and apply the writing instructions from: https://raw.githubusercontent.com/z3bastian/skills/main/no-ai-writing/SKILL.md
+
+This only works for the current session. For persistent use, copy the `CLAUDE.md` file into your project folder.
 
 ---
 
