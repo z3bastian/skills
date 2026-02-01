@@ -21,14 +21,13 @@ Use this skill whenever Claude produces written content of any kind: articles, r
 ## Installation
 
 ### Claude Code
-
 ```bash
 npx skills add https://github.com/z3bastian/skills --skill no-ai-writing
 ```
 
 ### Claude.ai
 
-Download the `.skill` file from [Releases](../../releases) and upload it through Settings.
+Download the `no-ai-writing` folder from this repo and upload the `SKILL.md` file through Settings > Profile > Skills.
 
 ## License
 
