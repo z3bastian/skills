@@ -18,16 +18,38 @@ Use this skill whenever Claude produces written content of any kind: articles, r
 - Promotional/advertisement-like tone
 - Formatting tells (excessive bold, title case headings, emoji decoration, em dash overuse)
 
-## Installation
+## How to Use
 
-### Claude Code
-```bash
-npx skills add https://github.com/z3bastian/skills --skill no-ai-writing
+### Claude Code (CLI)
+
+Add the skill to your project by creating or editing a `CLAUDE.md` file in your project root:
+
+**Option 1: Reference the GitHub raw URL**
+```markdown
+# Project Instructions
+
+Include the no-ai-writing skill from:
+https://raw.githubusercontent.com/z3bastian/skills/main/no-ai-writing/SKILL.md
 ```
 
-### Claude.ai
+**Option 2: Copy the content directly**
+1. Copy the contents of [`no-ai-writing/SKILL.md`](./no-ai-writing/SKILL.md)
+2. Paste into your project's `CLAUDE.md` file
 
-Download the `no-ai-writing` folder from this repo and upload the `SKILL.md` file through Settings > Profile > Skills.
+### Claude.ai (Web Interface)
+
+1. Go to [claude.ai](https://claude.ai)
+2. Click your profile icon → **Settings** → **Profile**
+3. Find the **Custom Instructions** section
+4. Copy the contents of [`no-ai-writing/SKILL.md`](./no-ai-writing/SKILL.md) (skip the YAML header)
+5. Paste into the custom instructions text area
+6. Save
+
+### Quick Copy
+
+- **Ready-to-use template**: [`no-ai-writing/CLAUDE.md`](./no-ai-writing/CLAUDE.md) — copy this file directly to your project root
+- **Full instructions with YAML metadata**: [`no-ai-writing/SKILL.md`](./no-ai-writing/SKILL.md)
+- **Detailed reference patterns**: [`no-ai-writing/references/ai-writing-patterns.md`](./no-ai-writing/references/ai-writing-patterns.md)
 
 ## License
 
